@@ -1,0 +1,40 @@
+﻿
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.links {
+    text-decoration:none; 
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.links:hover {
+    color:grey; 
+}
+
+
+.links::after { 
+    content: ",";
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 28px;
+}
+
+.itemStyle {
+    
+}
