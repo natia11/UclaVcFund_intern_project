@@ -1,0 +1,5 @@
+create database UCLA;
+use UCLA;
+
+CREATE TABLE User_tbl (id INT NOT NULL PRIMARY KEY, name VARCHAR(200), type VARCHAR(50), url VARCHAR(245), pic VARCHAR(245));
+CREATE TABLE User_Info_tbl (id INT NOT NULL PRIMARY KEY, user_details_json TEXT);
