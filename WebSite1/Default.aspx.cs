@@ -230,7 +230,7 @@ public partial class _Default : Page
     private bool OpenConnection()
     {
         string myConnectionString;
-        myConnectionString = "server=localhost; uid=root; pwd=tbilisi; database=UCLA;";
+        myConnectionString = "server=localhost; uid=root; pwd=; database=UCLA;";
         try
         {
             conn = new MySqlConnection(myConnectionString);
